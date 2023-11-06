@@ -1,0 +1,146 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__infos {
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+}
+
+.footer__infos_company {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.footer__image {
+    width: 18vw;
+}
+
+.footer__infos_company_text {
+    font-family: var(--montserrat);
+    color: var(--creme);
+    font-size: 1.25em;
+}
+
+.footer__infos_links {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer__title {
+    color: var(--azul);
+    font-family: var(--montserrat);
+    font-weight: 800;
+    font-size: 1.75em;
+}
+
+.footer__infos_links_list{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer__infos_links_list_item {
+    text-decoration: none;
+    color: var(--creme);
+    font-family: var(--montserrat);
+    font-size: 1.25em;
+
+}
+
+.footer__infos_links_list_item:hover {
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s;
+    transform: scale(103%);
+    color: var(--azul);
+}
+
+.whatsapp {
+    display: grid;
+    place-items: center;
+    background: var(--azul);
+    padding: 1.2em;
+    border-radius: 10px;
+    
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .whatsapp:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.5em);
+    background-color: #4FC958;
+  }
+  
+  .whatsapp svg {
+    transition: transform 0.5s;
+  }
+  
+  .whatsapp:hover svg {
+    transform: scale(0.9);
+    fill: #F7F7F7;
+  }
+
+  .instagram:hover {
+    background-color: #dd2a7b;
+  }
+  
+  .instagram_color {
+    fill: #F7F7F7;
+  }
+
+  .gmail:hover {
+    background-color: #E94134;
+  }
+  
+.gmail_color {
+    fill: #F7F7F7;
+}
+  
+.footer__infos__contacts_list {
+    display: flex;
+    gap: 1em;
+}
+
+.footer__infos_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    text-align: center;
+}
+
+.footer__rights {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 4em;
+}
+
+.footer__rights_text {
+    font-family: var(--montserrat);
+    color: var(--preto);
+    font-size: 1.25em;
+}
+
+.footer__rights_text_link {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.footer__rights_text_link:hover {
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s;
+    transform: scale(103%);
+    color: var(--azul);
+}

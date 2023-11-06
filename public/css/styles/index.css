@@ -1,0 +1,222 @@
+.banner__items {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+.banner__items_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2em;
+}
+
+.banner__title {
+    color: var(--cinza);
+    font-family: var(--montserrat);
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.banner__text {
+    color: var(--cinza);
+    font-family: var(--montserrat);
+    font-size: 2.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner__button {
+    text-decoration: none;
+    background-color: var(--azul);
+    width: 15vw;
+    padding: 0.5em 2em;
+    border: 0;
+    border-radius: 15px;
+    background-color: var(--azul);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.5em;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    box-shadow: 0px 4px 10px var(--cinza);
+}
+
+.banner__button:hover {
+    background-color: #3777ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+
+.banner__image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10em 10em;
+    gap: 7em;
+    align-items: center;
+}
+
+.section1__image {
+    width: 30vw;
+}
+
+.section1__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+}
+
+.section1__title {
+    color: var(--cinza);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section1__text {
+    color: var(--cinza);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 10em 10em;
+    gap: 7em;
+    align-items: center;
+}
+
+.section2__image {
+    width: 20vw;
+}
+
+.section2__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+}
+
+.section2__title {
+    color: var(--creme);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section2__text {
+    color: var(--creme);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    text-align: center;
+    padding: 7em 0;
+    align-items: center;
+}
+
+.section3__title {
+    color: var(--cinza);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.swiper {
+    width: 100vw;
+    height: 35em;
+  }
+
+.swiper__texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5em;
+}
+
+.swiper__texts_title {
+    color: var(--cinza);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.swiper__texts_text {
+    color: var(--cinza);
+    font-family: var(--montserrat);
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.swiper__image {
+    width: 280px;
+}
+
+.swiper__slide_content {
+    justify-content: space-around;
+    width: 90%;
+    height: 17em;
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
+    border-radius: 30px;
+    padding: 5em 3em;
+    margin: 3em 0;
+    box-shadow: 0px 4px 10px var(--cinza);
+}
+
+.swiper-slide {
+    margin: 0 1rem; /* Adiciona margem para espaçar os slides uniformemente */
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: center; /* Centraliza os slides horizontalmente */
+    max-width: 100%; /* Define a largura máxima para centralizar os slides na tela */
+}

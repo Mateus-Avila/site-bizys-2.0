@@ -1,0 +1,20 @@
+@import url(reset.css);
+@import url(styles/header.css);
+@import url(styles/footer.css);
+@import url(styles/index.css);
+@import url(styles/beneficios.css);
+
+:root {
+    --branco: #FFFFFF;
+    --creme: #F7F7F7;
+    --azul: #3777FD;
+    --preto: #000000;
+    --cinza: #333333;
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: var(--creme);
+}
