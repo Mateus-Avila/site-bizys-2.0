@@ -220,3 +220,14 @@
     justify-content: center; /* Centraliza os slides horizontalmente */
     max-width: 100%; /* Define a largura máxima para centralizar os slides na tela */
 }
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: var(--branco);
+    border: var(--preto);
+    padding: 1em 2em;
+    margin: 0 4em;
+    box-shadow: 0px 4px 10px var(--cinza);
+    border-radius: 50px;
+
+
+}

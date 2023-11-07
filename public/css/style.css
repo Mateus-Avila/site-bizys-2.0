@@ -3,6 +3,8 @@
 @import url(styles/footer.css);
 @import url(styles/index.css);
 @import url(styles/beneficios.css);
+@import url(styles/contato.css);
+@import url(styles/comousar.css);
 
 :root {
     --branco: #FFFFFF;

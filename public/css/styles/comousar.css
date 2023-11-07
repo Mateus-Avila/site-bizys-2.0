@@ -1,0 +1,85 @@
+.comousar {
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+.comousar__title {
+    color: var(--cinza);
+    font-family: var(--montserrat);
+    font-size: 3em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 2em 0;
+}
+
+.comousar1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.comousar__video {
+    width: 60em;
+    height: 34em;
+}
+
+.comousar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    background-color: var(--azul);
+    border-radius: 5em;
+    box-shadow:0px 4px 10px var(--cinza);;
+}
+
+.comousar2__title {
+    color: var(--creme);
+    font-family: var(--montserrat);
+    font-size: 3em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 2em;
+}
+
+.comousar2__galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . ."
+        ". . . ."
+        ". . . ."
+        ". . . .";
+    padding: 0 7em 10em 7em;
+}
+
+.comousar2__galeria_button {
+    padding: 0; /* Remove o preenchimento (padding) */
+    margin: 0; /* Remove a margem (margin) */
+    border: none; /* Remove a borda do botão */
+    background: none; /* Remove o fundo do botão */
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao botão */
+}
+
+.comousar2__galeria_image {
+    box-shadow: 0px 4px 10px var(--cinza);
+    border-radius: 2em;
+    width: 30em;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.comousar2__galeria_image:hover {
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
