@@ -10,9 +10,12 @@
         <div class="comousar2">
             <h2 class="comousar2__title">Nossa galeria de tutoriais</h2>
             <div class=" comousar2__galeria">
-                <button class=" comousar2__galeria_button" id="botao_como_funciona_o_bizys">
-                    <img src="{{asset('images/Miniaturas tutoriais bizys/Geral - Como funciona o Bizys.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
-                </button>
+            
+                <button class=" comousar2__galeria_button">
+                    <a href="https://youtu.be/WtwVDAwWrh0?si=QOOn-YsB3y33xWY4" >
+                        <img src="{{asset('images/Miniaturas tutoriais bizys/Geral - Como funciona o Bizys.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
+                    </a>
+                </button>    
 
                 <button class=" comousar2__galeria_button" id="botao_geral_login">
                     <img src="{{asset('images/Miniaturas tutoriais bizys/Geral - Login.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
@@ -34,7 +37,7 @@
                     <img src="{{asset('images/Miniaturas tutoriais bizys/indicador - gerar cupom manualmente.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
                 </button>
 
-                <button class=" comousar2__galeria_button" id="botao_validar_cupom">
+                <button class=" comousar2__galeria_button" id="botao_indicador_validar_cupom">
                     <img src="{{asset('images/Miniaturas tutoriais bizys/indicador - validar cupom.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
                 </button>
 
@@ -46,7 +49,7 @@
                     <img src="{{asset('images/Miniaturas tutoriais bizys/indicador - alterar colaboradores.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
                 </button>
 
-                <button class=" comousar2__galeria_button" id="botao_validar_cupom">
+                <button class=" comousar2__galeria_button" id="botao_indicado_validar_cupom">
                     <img src="{{asset('images/Miniaturas tutoriais bizys/indicado - validar cupom.png')}}" alt="Como o Bizys Funciona" class=" comousar2__galeria_image">
                 </button>
 

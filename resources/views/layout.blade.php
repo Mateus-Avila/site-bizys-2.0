@@ -26,8 +26,9 @@
 
         <script src="https://kit.fontawesome.com/ad7f4ca18e.js" crossorigin="anonymous"></script>
 
-        <script src="{{ asset('js/main.js') }}" defer></script>
-        <script src="{{ asset('js/swiper.js') }}" defer></script>
+        <script src="{{ asset('js/main.js') }}" defer ></script>
+        <script src="{{ asset('js/swiper.js') }}" defer ></script>
+        <script src="{{ asset('js/video.js') }}" defer ></script>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
