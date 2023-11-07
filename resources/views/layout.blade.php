@@ -26,7 +26,7 @@
 
         <script src="https://kit.fontawesome.com/ad7f4ca18e.js" crossorigin="anonymous"></script>
 
-        <script src="{{ asset('js/main.js') }}" defer ></script>
+        <script src="{{ asset('js/benefits.js') }}" defer ></script>
         <script src="{{ asset('js/swiper.js') }}" defer ></script>
         <script src="{{ asset('js/video.js') }}" defer ></script>
 

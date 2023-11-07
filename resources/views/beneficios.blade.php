@@ -12,15 +12,16 @@
         </div>
         <img src="{{ asset('images/beneficios.png')}}" alt="Imagem de beneficios pexels" class="banner__image"> 
     </div>
-    <div class="switch">
-        <fieldset id="switch" class="radio">
-            <input name="switch" id="afiliado" type="radio">
-            <label for="on">Afiliado</label>
-            <input name="switch" id="indicador" type="radio">
-            <label for="off">Indicador</label>
-            <input checked="" name="switch" id="indicado" type="radio">
-            <label for="auto">Indicado</label>
-        </fieldset>
+    <div class="container">
+        <div class="tabs">
+            <input type="radio" id="radio-1" name="tabs" checked="">
+            <label class="tab" for="radio-1">Afiliado</label>
+            <input type="radio" id="radio-2" name="tabs">
+            <label class="tab" for="radio-2">Indicador</label>
+            <input type="radio" id="radio-3" name="tabs">
+            <label class="tab" for="radio-3">Indicado</label>
+            <span class="glider"></span>
+        </div>
     </div>
     <div class="beneficios1">
         <h2 class="section1__title" id="section1Title">Receber um percentual das parcerias abertas</h2>
@@ -35,31 +36,31 @@
         <img src="{{ asset('images/transfer.svg') }}" alt=" Bizys transferencia" class="beneficios1__image" id="section3Image">
     </div>
     <div class="beneficios3">
-        <h2 class="beneficios3__title">O que um Afiliado faz?</h2>
+        <h2 class="beneficios3__title" id="section4Title">O que um Afiliado faz?</h2>
         <ul class="beneficios3__list">
             <li class="beneficios3__list_item">
                 <h3 class="list__number">1</h3>
-                <p class="list__text">Encontrar parceiros de negócios (empresas e pessoas)</p>
+                <p class="list__text" id="list_1">Encontrar parceiros de negócios (empresas e pessoas)</p>
             </li>
             <li class="beneficios3__list_item">
                 <h3 class="list__number">2</h3>
-                <p class="list__text">Desenvolver as parcerias entre empresas e pessoas</p>
+                <p class="list__text" id="list_2">Desenvolver as parcerias entre empresas e pessoas</p>
             </li>
             <li class="beneficios3__list_item">
                 <h3 class="list__number">3</h3>
-                <p class="list__text">Definir e implantar o modelo de parcerias acordado entre os parceiros</p>
+                <p class="list__text" id="list_3">Definir e implantar o modelo de parcerias acordado entre os parceiros</p>
             </li>
             <li class="beneficios3__list_item">
                 <h3 class="list__number">4</h3>
-                <p class="list__text">Capacitar os parceiros para o uso do sistema</p>
+                <p class="list__text" id="list_4">Capacitar os parceiros para o uso do sistema</p>
             </li>
             <li class="beneficios3__list_item">
                 <h3 class="list__number">5</h3>
-                <p class="list__text">Auxiliar os parceiros a configurarem as mensagens e pagamentos no sistema</p>
+                <p class="list__text" id="list_5">Auxiliar os parceiros a configurarem as mensagens e pagamentos no sistema</p>
             </li>
             <li class="beneficios3__list_item">
                 <h3 class="list__number">6</h3>
-                <p class="list__text">Acompanhar os relatórios de pagamento entre os parceiros</p>
+                <p class="list__text" id="list_6">Acompanhar os relatórios de pagamento entre os parceiros</p>
             </li>
         </ul>
 
