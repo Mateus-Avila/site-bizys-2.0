@@ -63,7 +63,6 @@
                         <img src="{{asset('images/teaching.svg')}}" alt="bizys teaching" class="swiper__image">
                     </div>
                 </div>
-                ...
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>

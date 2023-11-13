@@ -1,8 +1,8 @@
 .contato1 {
     display: flex;
     justify-content: space-around;
-    padding: 10em 15em;
-    gap: 15em;
+    padding: 15vh 10vw;
+    gap: 15vw;
     align-items: center;
 }
 .contato1__texts {
@@ -107,4 +107,24 @@
 
 .contato__logo_whatsapp {
     fill: #4FC958;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato1 {
+        gap: 10vw;
+    }
+
+    .contato__link {
+        gap: 1em;
+        width: 35vw;
+
+    }
+
+    .contato__text {
+        font-size: 1.75em;
+    }
+
+    .contato1__title, .contato1__text {
+        font-size: 2.5em;
+    }
 }

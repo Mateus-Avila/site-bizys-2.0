@@ -25,6 +25,10 @@ Route::get('/comousar', function () {
     return view('comousar');
 });
 
+Route::get('/quemsomos', function () {
+    return view('quemsomos');
+});
+
 Route::get('/contato', function () {
     return view('contato');
 });

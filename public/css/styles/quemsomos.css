@@ -1,0 +1,8 @@
+.branco {
+    color: var(--creme);
+}
+
+.section1__text strong {
+    font-weight: 700;
+    color: var(--azul);
+}

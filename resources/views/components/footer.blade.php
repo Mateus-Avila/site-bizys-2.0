@@ -9,7 +9,7 @@
             <p class="footer__infos_company_text">Whatsapp: (16) 98115-4872</p>
         </div>
         <div class="footer__infos_links">
-            <h2 class="footer__title">Para Você:</h2>
+            <h2 class="footer__title">Para Você</h2>
             <ul class="footer__infos_links_list">
                 <li class="footer__infos_links_list_item"><a href="/" class="footer__infos_links_list_item">Página inicial</a></li>
                 <li class="footer__infos_links_list_item"><a href="/beneficios" class="footer__infos_links_list_item">Benefícios</a></li>

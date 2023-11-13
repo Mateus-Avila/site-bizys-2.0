@@ -35,7 +35,6 @@
 .banner__button {
     text-decoration: none;
     background-color: var(--azul);
-    width: 15vw;
     padding: 0.5em 2em;
     border: 0;
     border-radius: 15px;
@@ -241,4 +240,82 @@
     transform: scale(0.9);
     box-shadow: 0 0 15px -20px #6fc5ff50;
     transition: all 0.1s;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner__image {
+        height: 50vh;
+    }
+
+    .banner__title {
+        font-size: 3em;
+    }
+
+    .banner__text {
+        font-size: 1.5em;
+    }
+
+    .banner__items {
+        top: 23vh;
+        left: 8vw;
+    }
+
+    .banner__button {
+        font-size: 1.15em;
+    }
+
+    .section1, .section2 {
+        padding: 6em 4em;
+        gap: 5em;
+    }
+
+    .section1__texts, .section2__texts {
+        gap: 2em;
+    }
+
+    .section1__title, .section2__title {
+        font-size: 2em;
+    }
+
+    .section1__text, .section2__text {
+        font-size: 1em;
+    }
+
+    .section3 {
+        gap: 4em;
+        padding: 5em 0;
+    }
+
+    .swiper {
+        height: 27em;
+    }
+
+    .swiper__texts {
+        gap: 3em;
+    }
+
+    .swiper__texts_title {
+        font-size: 1.5em;
+    }
+
+    .swiper__texts_text {
+        font-size: 1em;
+    }
+
+    .swiper__image {
+        width: 200px;
+    }
+
+    .swiper__slide_content {
+        height: 10em;
+        gap: 3em;
+    }
+
+    .swiper-slide {
+        margin: 0 2em;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none !important;
+    }
 }
