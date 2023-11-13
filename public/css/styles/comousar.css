@@ -89,9 +89,6 @@
 @media screen and (max-width: 1024px) {
     .comousar__title {
         margin: 2em 0 1.5em 0;
-    }
-
-    .comousar__title {
         font-size: 2em;
     }
 
@@ -124,5 +121,53 @@
         ". . ."
         ". . ."
         ". . .";
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comousar__title {
+        font-size: 1.5em;
+    }
+
+    .comousar__video {
+        width: 90vw;
+        height: 51vw;
+    }
+
+    .comousar {
+        gap: 5em;
+    }
+
+    .comousar2 {
+        gap: 7vw;
+        border-radius: 2em;
+        width: 90vw;
+    }
+
+    .comousar2__title {
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    .comousar2__galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 2vh;
+        padding: 0 3vw 7em 3vw;
+        grid-template-areas:
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". .";
+        padding: 0 3vw 3em 3vw;
+    }
+
+    .comousar2__galeria_image {
+        border-radius: .8em;
+        width: 37vw;
     }
 }

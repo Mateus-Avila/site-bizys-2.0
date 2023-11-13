@@ -128,3 +128,45 @@
         font-size: 2.5em;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .contato1 {
+        flex-direction: column;
+    }
+
+    .contato1__texts {
+        gap: 1em;
+    }
+
+    .contato1__title, .contato1__text {
+        font-size: 2em;
+    }
+
+    .contato__text {
+        font-size: 1.2em;
+    }
+
+    .contato2__title {
+        font-size: 2em;
+    }
+
+    .contato2__list {
+        margin: 5em 0;
+        gap: 2em;
+    }
+
+    .contato2__list_item {
+        gap: 1.5em;
+    }
+
+    .contato__link {
+        border-radius: 1em;
+        gap: 1.5em;
+        width: 60vw;
+        padding: 0.3em 0;
+    }
+
+    .contato1__image {
+        width: 60vw;
+    }
+}

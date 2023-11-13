@@ -12,7 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
 
-        <link rel="shortcut icon" href="{{asset('images/favicon.ico')}}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
 
         <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -26,6 +27,7 @@
 
         <script src="https://kit.fontawesome.com/ad7f4ca18e.js" crossorigin="anonymous"></script>
 
+        <script src="{{ asset('js/menu.js') }}" defer></script>
         <script src="{{ asset('js/benefits.js') }}" defer ></script>
         <script src="{{ asset('js/swiper.js') }}" defer ></script>
         <script src="{{ asset('js/video.js') }}" defer ></script>

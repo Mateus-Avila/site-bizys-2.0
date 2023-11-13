@@ -174,3 +174,39 @@ color: var(--azul);
         padding: 3em;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer__infos {
+        flex-direction: column;
+        gap: 4em;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer__infos_company {
+        align-items: center;
+    }
+
+    .footer__image {
+        width: 60vw;
+        justify-content: center;
+    }
+
+    .footer__infos_company_text {
+        font-size: 1em;
+    }
+
+
+    .footer__infos_contacts {
+        gap: 4em;
+    }
+
+    .footer__rights {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .footer__rights_text {
+        font-size: .85em;
+    }
+}

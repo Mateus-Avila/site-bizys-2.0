@@ -191,3 +191,37 @@
   }
   
 }
+
+@media screen and (max-width: 767px) {
+  .beneficios1, .beneficios2 {
+    flex-direction: column;
+    padding: 5em 3em;
+    gap: 5em;
+  }
+
+  .beneficios1__image, .beneficios2__image {
+    width: 60vw;
+  }
+
+  .beneficios3__title {
+    font-size: 1.5em;
+  }
+
+  .beneficios3__list {
+    margin: 0 0 5em 0;
+  }
+
+  .beneficios3__list_item {
+    padding: 0.5em 1.5em;
+    border-radius: 30px;
+    gap: 2em;
+  }
+
+  .list__number {
+    font-size: 1.5em;
+  }
+
+  .list__text {
+    font-size: 1em;
+  }
+}
