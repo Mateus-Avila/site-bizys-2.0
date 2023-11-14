@@ -86,12 +86,13 @@
 
 .header__navlinks {
     display: flex;
-    gap: 6em;
+    margin: 0 17vw;
+    gap: 6vw;
 }
 
 .header__navlinks_link {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: var(--montserrat);
     color: var(--cinza);
 }
@@ -132,6 +133,11 @@
   }
 
 @media screen and (max-width: 1024px){
+    .header__navlinks {
+        margin: 0;
+        gap: 2vw;
+    }
+
     .header__image {
         width: 4.5em;
     }
