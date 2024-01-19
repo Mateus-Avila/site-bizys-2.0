@@ -86,7 +86,7 @@
 
 .header__navlinks {
     display: flex;
-    margin: 0 17vw;
+    margin: 0 12vw;
     gap: 6vw;
 }
 
@@ -114,8 +114,8 @@
     font-weight: 700;
     font-family: var(--montserrat);
     font-size: 1.5em;
-    transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    transition: all 0.5s;
   }
   
   .header__button:hover {
@@ -126,8 +126,8 @@
   
   .header__button:active {
     background-color: #3d94cf;
-    transition: all 0.25s;
     -webkit-transition: all 0.25s;
+    transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
   }
