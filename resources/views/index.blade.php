@@ -72,6 +72,18 @@
             </div>
             <a href="/beneficios" class="banner__button">Saber mais</a>
         </div>
+        <div class="partners">
+            <h2 class="partners_title">Nossos Parceiros:</h2>
+            <ul class="partners_list">
+                <li><img src="{{asset('images/adcos.png')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/body for sure.png')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/docks_base.png')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/doha.jpg')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/doTerra.png')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/physio.png')}}" alt="" class="partners_image"></li>
+                <li><img src="{{asset('images/thomaz pillegi.webp')}}" alt="" class="partners_image"></li>
+            </ul>
+        </div>
 
 
 
